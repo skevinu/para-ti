@@ -419,6 +419,12 @@ main::before {
         width: 95vw;
     }
 
+    /* CORRECCIÓN: Reposicionar la tarjeta de la letra en móviles */
+    .lyrics-card {
+        bottom: auto; /* Quitar el posicionamiento inferior */
+        top: 20px;    /* Posicionar en la parte superior */
+    }
+
     .card-front h1, .card-back h3 {
         font-size: 1.8rem; /* Títulos más pequeños */
     }
